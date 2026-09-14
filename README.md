@@ -13,7 +13,7 @@ ai-data-analysis/
 │  ├─ raw/          원본 CSV (customers, products, orders, order_items)
 │  ├─ processed/    전처리 완료 데이터 (git 미추적)
 │  └─ sample/       LLM 질문·공개 예제용 익명화 소규모 샘플
-├─ notebooks/       탐색·실습용 Jupyter Notebook (chNN_*.ipynb)
+├─ notebooks/       탐색·실습용 Jupyter Notebook (chNN/chNN_*.ipynb)
 ├─ scripts/         일회성 스크립트 (샘플 데이터 생성 등)
 ├─ src/             재사용 함수 (load_data / preprocess / validate)
 ├─ reports/         표·그래프·보고서 결과물

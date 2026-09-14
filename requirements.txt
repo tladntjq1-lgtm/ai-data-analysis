@@ -15,3 +15,6 @@ markdown
 requests
 beautifulsoup4
 ipykernel
+
+# 수업용 공용 유틸리티 패키지 (course_utils) - 로컬 소스를 editable 설치
+-e .
