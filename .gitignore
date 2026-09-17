@@ -54,3 +54,5 @@ book/output/docx/*
 Thumbs.db
 .vscode/
 .idea/
+
+.claude

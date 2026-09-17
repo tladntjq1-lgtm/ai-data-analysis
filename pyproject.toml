@@ -3,10 +3,16 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "course-utils"
+name = "ai-data-analysis"
 version = "0.1.0"
 description = "AI 데이터 분석 수업용 공용 유틸리티 (경로 탐색 등)"
 requires-python = ">=3.10"
 
 [tool.setuptools]
+where =["."]
 packages = ["course_utils"]
+include =[ 
+    "course_utils*",
+    "src",
+    "src",
+]
